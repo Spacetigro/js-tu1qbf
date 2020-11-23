@@ -1,0 +1,48 @@
+
+.container{
+  font-family: sans-serif;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+ 
+.list{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-direction: column;
+} 
+
+
+button{
+  background: blue;
+  height: 40px;
+  width: 600px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+#myList {
+  padding: 0;
+  display: none
+}
+
+.completed {
+  background-image: url('https://img.icons8.com/fluent/2x/checkmark.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 95% 50%;
+}
+.not-completed {
+  background-image: url('https://img.icons8.com/fluent/2x/cancel-2.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 95% 50%;
+}
